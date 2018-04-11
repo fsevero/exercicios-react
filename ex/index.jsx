@@ -1,9 +1,11 @@
 import React from 'react'
 import ReactDOM from "react-dom"
 
-import Component from "./component";
+import DefaultComponent, { Second} from "./component";
 
 ReactDOM.render(
-  <Component value="Severo" />,
-  document.getElementById('app')
-)
+  <div>
+    <DefaultComponent value="Severo" />
+    <Second />
+  </div>
+, document.getElementById('app'))
