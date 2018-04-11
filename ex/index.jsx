@@ -1,11 +1,10 @@
 import React from 'react'
 import ReactDOM from "react-dom"
 
-import DefaultComponent, { Second} from "./component";
+import Family from './family'
 
 ReactDOM.render(
   <div>
-    <DefaultComponent value="Severo" />
-    <Second />
+    <Family />
   </div>
 , document.getElementById('app'))
