@@ -4,5 +4,5 @@ import ReactDOM from "react-dom"
 import ClassComponent from './class.component'
 
 ReactDOM.render(
-  <ClassComponent value='Yay!' />
+  <ClassComponent initialValue={10} label="I'm from the props" />
 , document.getElementById('app'))
